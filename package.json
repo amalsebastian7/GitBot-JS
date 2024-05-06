@@ -1,0 +1,29 @@
+{
+  "name": "git_automation_bot",
+  "version": "1.0.0",
+  "description": "GitHub automation bot",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amalsebastian7/git_automation_bot.git"
+  },
+  "author": "Amalsebastian",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "jsonfile": "^6.1.0",
+    "moment": "^2.30.1",
+    "random": "^4.1.0",
+    "simple-git": "^3.24.0",
+    "util": "^0.12.5"
+  }
+}
+
+
